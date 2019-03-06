@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Send Intent App</string>
+    <string name="send_text">Передай меня в новое окно</string>
+    <string name="button_send">Передать</string>
+    <string name="call">Call</string>
+    <string name="view_map">View map</string>
+    <string name="view_web_pages">View web pages</string>
+    <string name="send_mail">Send mail</string>
 </resources>
