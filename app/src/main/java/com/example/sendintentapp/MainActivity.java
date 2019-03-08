@@ -27,6 +27,19 @@ public class MainActivity extends AppCompatActivity {
         buttonWeb();
         buttonMap();
         buttonCall();
+
+        goToTestPng();
+    }
+
+    public void goToTestPng() {
+        Button buttonGoToPng = findViewById(R.id.button_go_to_png);
+        final Intent intent = new Intent(this, ImageActivity.class);
+        buttonGoToPng.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(intent);
+            }
+        });
     }
 
     public void sendMessage(View view) {
